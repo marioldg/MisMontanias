@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para el Nombre de la Montaña -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la montaña"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNombreMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre"
+        android:inputType="text"/>
+
+    <!-- Campo para la Altura -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura (m)"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/edtAlturaMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la altura"
+        android:inputType="number"/>
+
+    <!-- Selector de Usuario -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asignar a usuario"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Botón para Guardar -->
+    <Button
+        android:id="@+id/btnGuardarMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón para Cancelar -->
+    <Button
+        android:id="@+id/btnCancelarMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

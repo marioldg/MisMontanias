@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nombre de la montaña (no modificable) -->
+    <TextView
+        android:id="@+id/txtNombreMontania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la montaña"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNombreMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:focusable="false"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Campo para la Altura -->
+    <TextView
+        android:id="@+id/txtAlturaMontania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura (m)"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/edtAlturaMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la altura"
+        android:inputType="number"/>
+
+    <!-- Campo para el Concejo -->
+    <TextView
+        android:id="@+id/txtConcejoMontania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concejo"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/edtConcejoMontania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el concejo"/>
+
+    <!-- Botones de acción -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnGuardarModificacion"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Guardar"/>
+
+        <Button
+            android:id="@+id/btnCancelarModificacion"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"/>
+    </LinearLayout>
+</LinearLayout>
