@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyExamApp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginBottom="40dp"
+
+        />
+
+    <Button
+        android:id="@+id/botonCalculadora"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/calculadora"
+        />
+
+    <Button
+        android:id="@+id/BotonMountains"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bordes"
+        android:text="MY MOUNTAINS"
+        android:textColor="@color/white" />
+
+</LinearLayout>
