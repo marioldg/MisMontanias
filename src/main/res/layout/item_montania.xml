@@ -11,7 +11,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/montañaFoto"/>
+        android:src="@drawable/naranjo_de_bulnes"/>
 
     <LinearLayout
         android:layout_width="0dp"
@@ -30,12 +30,5 @@
             android:textSize="16sp"/>
 
         <!-- Concejo -->
-        <TextView
-            android:id="@+id/txtConcejo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Concejo"
-            android:textSize="14sp"
-            android:textColor="@android:color/darker_gray"/>
     </LinearLayout>
 </LinearLayout>

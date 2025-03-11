@@ -2,60 +2,143 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#BBA2E2"
     android:gravity="center"
-    android:padding="20dp"
-    android:background="@color/black">
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/txtDisplay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
-        android:textSize="32sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
         android:gravity="end"
-        android:background="@android:color/holo_orange_light"
         android:padding="10dp"
+        android:text="0"
         android:textColor="@android:color/black"
-        android:layout_marginBottom="10dp"/>
+        android:textSize="32sp" />
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TableRow>
-            <Button android:id="@+id/btn7" android:text="7"/>
-            <Button android:id="@+id/btn8" android:text="8"/>
-            <Button android:id="@+id/btn9" android:text="9"/>
-            <Button android:id="@+id/btnDivision" android:text="/"/>
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="/" />
         </TableRow>
 
         <TableRow>
-            <Button android:id="@+id/btn4" android:text="4"/>
-            <Button android:id="@+id/btn5" android:text="5"/>
-            <Button android:id="@+id/btn6" android:text="6"/>
-            <Button android:id="@+id/btnMultiplicacion" android:text="*"/>
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnMultiplicacion"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="*" />
         </TableRow>
 
         <TableRow>
-            <Button android:id="@+id/btn1" android:text="1"/>
-            <Button android:id="@+id/btn2" android:text="2"/>
-            <Button android:id="@+id/btn3" android:text="3"/>
-            <Button android:id="@+id/btnResta" android:text="-"/>
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnResta"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="-" />
         </TableRow>
 
         <TableRow>
-            <Button android:id="@+id/btnInv" android:text="INV"/>
-            <Button android:id="@+id/btn0" android:text="0"/>
-            <Button android:id="@+id/btnBorrar" android:text="C"/>
-            <Button android:id="@+id/btnSuma" android:text="+"/>
+
+            <Button
+                android:id="@+id/btnInv"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="INV" />
+
+            <Button
+                android:id="@+id/btn0"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnBorrar"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnSuma"
+                style="@style/Widget.AppCompat.Button"
+                android:height="100dp"
+                android:text="+" />
         </TableRow>
 
         <TableRow>
+
             <Button
                 android:id="@+id/btnIgual"
-                android:text="="
-                android:layout_span="4"/>
+                style="@style/Widget.AppCompat.Button"
+                android:layout_span="4"
+                android:height="100dp"
+                android:text="=" />
         </TableRow>
 
     </TableLayout>
